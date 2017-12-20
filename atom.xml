@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zuosc.github.io/"/>
-  <updated>2017-11-14T13:25:47.959Z</updated>
+  <updated>2017-12-20T10:40:11.429Z</updated>
   <id>https://zuosc.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用Let&#39;s Encrypt加密你的小站</title>
+    <link href="https://zuosc.github.io/2017/12/20/%E4%BD%BF%E7%94%A8Let&#39;s%20Encrypt%E5%8A%A0%E5%AF%86%E4%BD%A0%E7%9A%84%E5%B0%8F%E7%AB%99/"/>
+    <id>https://zuosc.github.io/2017/12/20/使用Let&#39;s Encrypt加密你的小站/</id>
+    <published>2017-12-20T10:39:49.000Z</published>
+    <updated>2017-12-20T10:40:11.429Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="Let&#39;s Encrypt" scheme="https://zuosc.github.io/tags/Let-s-Encrypt/"/>
+    
+      <category term="Nginx" scheme="https://zuosc.github.io/tags/Nginx/"/>
+    
+      <category term="ssl" scheme="https://zuosc.github.io/tags/ssl/"/>
+    
+  </entry>
   
   <entry>
     <title>在Ubuntu中搭建KMS服务器</title>
