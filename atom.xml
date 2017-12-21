@@ -35,6 +35,8 @@
     </summary>
     
     
+      <category term="ubuntu" scheme="https://zuosc.github.io/tags/ubuntu/"/>
+    
       <category term="Let&#39;s Encrypt" scheme="https://zuosc.github.io/tags/Let-s-Encrypt/"/>
     
       <category term="Nginx" scheme="https://zuosc.github.io/tags/Nginx/"/>
@@ -47,8 +49,6 @@
     
       <category term="https" scheme="https://zuosc.github.io/tags/https/"/>
     
-      <category term="ubuntu" scheme="https://zuosc.github.io/tags/ubuntu/"/>
-    
   </entry>
   
   <entry>
@@ -56,9 +56,9 @@
     <link href="https://zuosc.github.io/2017/11/11/%E5%9C%A8Ubuntu%E4%B8%AD%E6%90%AD%E5%BB%BAKMS%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     <id>https://zuosc.github.io/2017/11/11/在Ubuntu中搭建KMS服务器/</id>
     <published>2017-11-11T11:02:49.000Z</published>
-    <updated>2017-12-20T11:05:23.876Z</updated>
+    <updated>2017-12-21T14:03:50.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>基于<a href="https://github.com/Wind4/vlmcsd" target="_blank" rel="external">vlmcsd</a>搭建的KMS服务器。<br>根据github上的说明，这个工具是用C写的，没有任何依赖，可以直接运行。而且它横跨几乎现在所有的系统平台，如Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows。相比于另一款工具<a href="https://github.com/myanaloglife/py-kms" target="_blank" rel="external">py-kms</a>需要依赖pyhont2或者python3，可谓是非常干净舒爽。</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>1、在任意环境中，下载最新的vlmcsd releases版本，<a href="https://github.com/Wind4/vlmcsd/releases" target="_blank" rel="external">下载地址</a>。如在linux中，可以使用wget下载：<br><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https:<span class="regexp">//gi</span>thub.com<span class="regexp">/Wind4/</span>vlmcsd<span class="regexp">/releases/</span>download<span class="regexp">/svn1111/</span>binaries.tar.gz</span><br></pre></td></tr></table></figure></p><p>2、解压我们下载的包，进入对应的目录。如Ubuntu系统，我们可以进入binaries/Linux/intel/static目录中</p><p>3、选择对应的文件，这里我们选择vlmcsdmulti-x64-musl-static文件。然后把这个文件放到我们想要的文件中。</p><p>4、执行chmod命令，为这个文件赋予权限：<br><figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">chmod</span> u+<span class="keyword">x</span> /usr/<span class="keyword">local</span>/KMS-server</span><br></pre></td></tr></table></figure></p><p>权限赋予完毕之后，直接执行命令<br><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./vlmcsdmulti-x64-musl-<span class="keyword">static</span> vlmcsd</span><br></pre></td></tr></table></figure></p><p>如果没有任何错误提示，代表我们成功了。不放心的话，可以再执行一遍，会提示我们端口(1688)和地址已经被占用。</p><p>5、若有防火墙，记得把1688端口开放，然后加入自启动。如在Ubuntu中，可以编辑/etc/rc.local文件，在启动项里加入启动命令。</p><p>6、复制以下文本<br><figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">cd</span> <span class="string">/d</span> <span class="string">"%SystemRoot%\system32"</span></span><br><span class="line">slmgr <span class="string">/kms</span> 你的VPS的IP或者域名</span><br><span class="line">slmgr <span class="string">/ato</span></span><br><span class="line">slmgr <span class="string">/xpr</span></span><br></pre></td></tr></table></figure></p><p>存成bat格式的文件，然后右键以<font color="red" size="3"><strong>管理员身份</strong></font>运行。</p><p>7、验证是否激活。在cmd或powershell中执行<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">slmgr<span class="selector-class">.vbs</span> -dlv</span><br></pre></td></tr></table></figure></p><p>不出意外的话，会显示已经激活成功的信息。  </p><p>8、这个kms激活服务器，同样可以用来激活office，原理基本一致。可以参考原作者的<a href="http://wind4.github.io/vlmcsd/" target="_blank" rel="external">github pages</a>进行激活。</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>基于<a href="https://github.com/Wind4/vlmcsd" target="_blank" rel="external">vlmcsd</a>搭建的KMS服务器。<br>根据github上的说明，这个工具是用C写的，没有任何依赖，可以直接运行。而且它横跨几乎现在所有的系统平台，如Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows。相比于另一款工具<a href="https://github.com/myanaloglife/py-kms" target="_blank" rel="external">py-kms</a>需要依赖pyhont2或者python3，可谓是非常干净舒爽。</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>1、在任意环境中，下载最新的vlmcsd releases版本，<a href="https://github.com/Wind4/vlmcsd/releases" target="_blank" rel="external">下载地址</a>。如在linux中，可以使用wget下载：<br><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https:<span class="regexp">//gi</span>thub.com<span class="regexp">/Wind4/</span>vlmcsd<span class="regexp">/releases/</span>download<span class="regexp">/svn1111/</span>binaries.tar.gz</span><br></pre></td></tr></table></figure></p><p>2、解压我们下载的包，进入对应的目录。如Ubuntu系统，我们可以进入binaries/Linux/intel/static目录中</p><p>3、选择对应的文件，这里我们选择vlmcsdmulti-x64-musl-static文件。然后把这个文件放到我们想要的文件中。</p><p>4、执行chmod命令，为这个文件赋予权限：<br><figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">chmod</span> u+<span class="keyword">x</span> /usr/<span class="keyword">local</span>/KMS-server</span><br></pre></td></tr></table></figure></p><p>权限赋予完毕之后，直接执行命令<br><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./vlmcsdmulti-x64-musl-<span class="keyword">static</span> vlmcsd</span><br></pre></td></tr></table></figure></p><p>如果没有任何错误提示，代表我们成功了。不放心的话，可以再执行一遍，会提示我们端口(1688)和地址已经被占用。</p><p>5、若有防火墙，记得把1688端口开放，然后加入自启动。如在Ubuntu中，可以编辑/etc/rc.local文件，在启动项里加入启动命令。</p><p>6、复制以下文本<br><figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">cd</span> <span class="string">/d</span> <span class="string">"%SystemRoot%\system32"</span></span><br><span class="line">slmgr <span class="string">/skms</span> 你的VPS的IP或者域名,域名似乎不能加http之类的</span><br><span class="line">slmgr <span class="string">/ato</span></span><br><span class="line">slmgr <span class="string">/xpr</span></span><br></pre></td></tr></table></figure></p><p>存成bat格式的文件，然后右键以<font color="red" size="3"><strong>管理员身份</strong></font>运行。</p><p>7、验证是否激活。在cmd或powershell中执行<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">slmgr<span class="selector-class">.vbs</span> -dlv</span><br></pre></td></tr></table></figure></p><p>不出意外的话，会显示已经激活成功的信息。  </p><p>8、这个kms激活服务器，同样可以用来激活office，原理基本一致。可以参考原作者的<a href="http://wind4.github.io/vlmcsd/" target="_blank" rel="external">github pages</a>进行激活。</p>]]></content>
     
     <summary type="html">
     
@@ -70,13 +70,13 @@
     </summary>
     
     
-      <category term="ubuntu" scheme="https://zuosc.github.io/tags/ubuntu/"/>
-    
       <category term="kms" scheme="https://zuosc.github.io/tags/kms/"/>
     
       <category term="激活服务器" scheme="https://zuosc.github.io/tags/%E6%BF%80%E6%B4%BB%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
       <category term="vlmcsd" scheme="https://zuosc.github.io/tags/vlmcsd/"/>
+    
+      <category term="ubuntu" scheme="https://zuosc.github.io/tags/ubuntu/"/>
     
   </entry>
   
