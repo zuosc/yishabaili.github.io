@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zuosc.github.io/"/>
-  <updated>2017-12-21T05:07:13.548Z</updated>
+  <updated>2017-12-22T09:12:43.000Z</updated>
   <id>https://zuosc.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>对外服务集合</title>
+    <link href="https://zuosc.github.io/2017/12/22/%E5%AF%B9%E5%A4%96%E6%9C%8D%E5%8A%A1%E9%9B%86%E5%90%88/"/>
+    <id>https://zuosc.github.io/2017/12/22/对外服务集合/</id>
+    <published>2017-12-22T09:40:49.000Z</published>
+    <updated>2017-12-22T09:12:43.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="对外服务集合"><a href="#对外服务集合" class="headerlink" title="对外服务集合"></a>对外服务集合</h2><p>1、http(s)://key.123456.cloud/jet.jsp(略敏感，有心人自然能猜到这是什么服务器)</p><p>2、kms.123456.cloud (继续猜喽，聪明人都知道)</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;对外服务集合&quot;&gt;&lt;a href=&quot;#对外服务集合&quot; class=&quot;headerlink&quot; title=&quot;对外服务集合&quot;&gt;&lt;/a&gt;对外服务集合&lt;/h2&gt;&lt;p&gt;1、http(s)://key.123456.cloud/jet.jsp(略敏感，有心人自然能猜到这是什么服
+      
+    
+    </summary>
+    
+    
+      <category term="KMS" scheme="https://zuosc.github.io/tags/KMS/"/>
+    
+      <category term="Jetbrains" scheme="https://zuosc.github.io/tags/Jetbrains/"/>
+    
+  </entry>
   
   <entry>
     <title>使用Let&#39;s Encrypt加密你的小站</title>
@@ -35,8 +60,6 @@
     </summary>
     
     
-      <category term="ubuntu" scheme="https://zuosc.github.io/tags/ubuntu/"/>
-    
       <category term="Let&#39;s Encrypt" scheme="https://zuosc.github.io/tags/Let-s-Encrypt/"/>
     
       <category term="Nginx" scheme="https://zuosc.github.io/tags/Nginx/"/>
@@ -48,6 +71,8 @@
       <category term="letsencrypt" scheme="https://zuosc.github.io/tags/letsencrypt/"/>
     
       <category term="https" scheme="https://zuosc.github.io/tags/https/"/>
+    
+      <category term="ubuntu" scheme="https://zuosc.github.io/tags/ubuntu/"/>
     
   </entry>
   
@@ -70,13 +95,13 @@
     </summary>
     
     
+      <category term="ubuntu" scheme="https://zuosc.github.io/tags/ubuntu/"/>
+    
       <category term="kms" scheme="https://zuosc.github.io/tags/kms/"/>
     
       <category term="激活服务器" scheme="https://zuosc.github.io/tags/%E6%BF%80%E6%B4%BB%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
       <category term="vlmcsd" scheme="https://zuosc.github.io/tags/vlmcsd/"/>
-    
-      <category term="ubuntu" scheme="https://zuosc.github.io/tags/ubuntu/"/>
     
   </entry>
   
