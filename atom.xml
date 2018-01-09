@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zuosc.github.io/"/>
-  <updated>2017-12-22T09:12:43.000Z</updated>
+  <updated>2018-01-09T12:28:29.893Z</updated>
   <id>https://zuosc.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在Ubuntu中安装Transmission笔记</title>
+    <link href="https://zuosc.github.io/2018/01/09/%E5%9C%A8Ubuntu%E4%B8%AD%E5%AE%89%E8%A3%85Transmission%E7%AC%94%E8%AE%B0/"/>
+    <id>https://zuosc.github.io/2018/01/09/在Ubuntu中安装Transmission笔记/</id>
+    <published>2018-01-09T12:39:49.000Z</published>
+    <updated>2018-01-09T12:28:29.893Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>Transmission是一种BitTorrent客户端，特点是一个跨平台的后端和其上的简洁的用户界面。Transmission以MIT许可证和GNU通用公共许可证双许可证授权，因此是一款自由软件。</p><h1 id="移动端APP"><a href="#移动端APP" class="headerlink" title="移动端APP"></a>移动端APP</h1><p>似乎IOS端是没有APP的，安卓端有一个不错的。<a href="https://play.google.com/store/apps/details?id=com.neogb.rtac" target="_blank" rel="external">Google Play 地址</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;Transmission是一种BitTorrent客户端，特点是一个跨平台的后端和其上的简洁的用户界面。Transmission以MIT许可
+      
+    
+    </summary>
+    
+    
+      <category term="Transmission" scheme="https://zuosc.github.io/tags/Transmission/"/>
+    
+      <category term="ubuntu" scheme="https://zuosc.github.io/tags/ubuntu/"/>
+    
+  </entry>
   
   <entry>
     <title>对外服务集合</title>
@@ -60,6 +85,8 @@
     </summary>
     
     
+      <category term="ubuntu" scheme="https://zuosc.github.io/tags/ubuntu/"/>
+    
       <category term="Let&#39;s Encrypt" scheme="https://zuosc.github.io/tags/Let-s-Encrypt/"/>
     
       <category term="Nginx" scheme="https://zuosc.github.io/tags/Nginx/"/>
@@ -71,8 +98,6 @@
       <category term="letsencrypt" scheme="https://zuosc.github.io/tags/letsencrypt/"/>
     
       <category term="https" scheme="https://zuosc.github.io/tags/https/"/>
-    
-      <category term="ubuntu" scheme="https://zuosc.github.io/tags/ubuntu/"/>
     
   </entry>
   
