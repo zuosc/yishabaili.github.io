@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zuosc.github.io/"/>
-  <updated>2018-02-24T13:59:04.000Z</updated>
+  <updated>2018-02-24T13:59:46.626Z</updated>
   <id>https://zuosc.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://zuosc.github.io/2018/02/24/%E6%96%B0%E6%9C%8D%E5%8A%A1%E5%99%A8(Ubuntu)%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/"/>
     <id>https://zuosc.github.io/2018/02/24/新服务器(Ubuntu)基本配置/</id>
     <published>2018-02-24T14:00:00.000Z</published>
-    <updated>2018-02-24T13:59:04.000Z</updated>
+    <updated>2018-02-24T13:59:46.626Z</updated>
     
     <content type="html"><![CDATA[<h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><figure class="highlight q"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="built_in">get</span> <span class="keyword">update</span>   <span class="comment">//更新</span></span><br><span class="line"></span><br><span class="line">apt-<span class="built_in">get</span> -y install language-pack-zh-hans  <span class="comment">//安装中文包</span></span><br><span class="line"></span><br><span class="line">sudo apt-<span class="built_in">get</span> upgrade  <span class="comment">//更新系统到最新</span></span><br></pre></td></tr></table></figure>]]></content>
     
