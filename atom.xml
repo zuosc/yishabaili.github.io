@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zuosc.github.io/"/>
-  <updated>2018-06-21T09:45:24.510Z</updated>
+  <updated>2018-06-21T09:47:30.203Z</updated>
   <id>https://zuosc.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>在Ubuntu中搭建饥荒联机版服务器</title>
-    <link href="https://zuosc.github.io/2018/06/21/%E5%9C%A8Ubuntu%E4%B8%AD%E6%90%AD%E5%BB%BA%E9%A5%A5%E8%8D%92%E8%81%94%E6%9C%BA%E7%89%88%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    <id>https://zuosc.github.io/2018/06/21/在Ubuntu中搭建饥荒联机版服务器/</id>
+    <title>在Linux(Ubuntu)中搭建饥荒联机版服务器</title>
+    <link href="https://zuosc.github.io/2018/06/21/%E5%9C%A8Linux(Ubuntu)%E4%B8%AD%E6%90%AD%E5%BB%BA%E9%A5%A5%E8%8D%92%E8%81%94%E6%9C%BA%E7%89%88%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <id>https://zuosc.github.io/2018/06/21/在Linux(Ubuntu)中搭建饥荒联机版服务器/</id>
     <published>2018-06-21T11:02:49.000Z</published>
-    <updated>2018-06-21T09:45:24.510Z</updated>
+    <updated>2018-06-21T09:47:30.203Z</updated>
     
     <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这周Klei家打折，手一抖就把饥荒联机版(DoNotStarveTogether)和两个DLC一起打包买回家了（剁手！）。联机版最大的玩点就是可以和很多人一起玩，而且可以自己搭建服务器。想着前一段时间买的腾讯云服务器(继续剁手！)也算闲置在那里，就干脆闲置利用起来吧。</p>]]></content>
     
@@ -35,13 +35,13 @@
     </summary>
     
     
-      <category term="ubuntu" scheme="https://zuosc.github.io/tags/ubuntu/"/>
-    
       <category term="饥荒" scheme="https://zuosc.github.io/tags/%E9%A5%A5%E8%8D%92/"/>
     
       <category term="饥荒联机版" scheme="https://zuosc.github.io/tags/%E9%A5%A5%E8%8D%92%E8%81%94%E6%9C%BA%E7%89%88/"/>
     
       <category term="Do Not Starve Together" scheme="https://zuosc.github.io/tags/Do-Not-Starve-Together/"/>
+    
+      <category term="ubuntu" scheme="https://zuosc.github.io/tags/ubuntu/"/>
     
       <category term="DoNotStarveTogether" scheme="https://zuosc.github.io/tags/DoNotStarveTogether/"/>
     
@@ -150,6 +150,8 @@
     </summary>
     
     
+      <category term="ubuntu" scheme="https://zuosc.github.io/tags/ubuntu/"/>
+    
       <category term="Let&#39;s Encrypt" scheme="https://zuosc.github.io/tags/Let-s-Encrypt/"/>
     
       <category term="Nginx" scheme="https://zuosc.github.io/tags/Nginx/"/>
@@ -161,8 +163,6 @@
       <category term="letsencrypt" scheme="https://zuosc.github.io/tags/letsencrypt/"/>
     
       <category term="https" scheme="https://zuosc.github.io/tags/https/"/>
-    
-      <category term="ubuntu" scheme="https://zuosc.github.io/tags/ubuntu/"/>
     
   </entry>
   
