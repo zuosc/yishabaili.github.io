@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zuosc.github.io/"/>
-  <updated>2018-06-21T09:47:30.203Z</updated>
+  <updated>2018-06-21T10:11:15.046Z</updated>
   <id>https://zuosc.github.io/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="https://zuosc.github.io/2018/06/21/%E5%9C%A8Linux(Ubuntu)%E4%B8%AD%E6%90%AD%E5%BB%BA%E9%A5%A5%E8%8D%92%E8%81%94%E6%9C%BA%E7%89%88%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     <id>https://zuosc.github.io/2018/06/21/在Linux(Ubuntu)中搭建饥荒联机版服务器/</id>
     <published>2018-06-21T11:02:49.000Z</published>
-    <updated>2018-06-21T09:47:30.203Z</updated>
+    <updated>2018-06-21T10:11:15.046Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这周Klei家打折，手一抖就把饥荒联机版(DoNotStarveTogether)和两个DLC一起打包买回家了（剁手！）。联机版最大的玩点就是可以和很多人一起玩，而且可以自己搭建服务器。想着前一段时间买的腾讯云服务器(继续剁手！)也算闲置在那里，就干脆闲置利用起来吧。</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这周Klei家打折，手一抖就把饥荒联机版(Don’t Starve Together)和两个DLC一起打包买回家了(剁手！)。联机版最大的玩点就是可以和很多人一起玩，而且可以自己搭建服务器。想着前一段时间买的腾讯云服务器(继续剁手！)也算闲置在那里，就干脆闲置利用起来吧。<br><img src="https://cdn.steamstatic.com.8686c.com/steam/apps/322330/header_alt_assets_0.jpg" alt="Don&#39;t Starve Together"></p><h2 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h2><p>实际上，Klie的文档还是写的非常非常详细的，不过只有纯英文的文档，这可能吓退了一部分人。如果真的认真去看了，就会发现英文文档都是比较简单的英语，图片也配的很详细，看懂无压力。<br>这里我有点懒，哪天有空再翻译吧，所以就直接贴出文档地址：<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=590565473" target="_blank" rel="noopener">How to setup dedicated server with cave on Linux</a></p><h2 id="搭建注意点"><a href="#搭建注意点" class="headerlink" title="搭建注意点"></a>搭建注意点</h2><p>1、强烈推荐根据官方文档里的步骤，创建一个非root组的账户。然后剩余所有的操作全都在这个用户里进行操作。这个还是非常重要的，第一遍看文档的时候没注意到用户的切换，还有脚本会重置mod文件(后面会说到)，导致了一直失败。后来耐心重读了一遍文档，才发现问题所在。<br>2、</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;这周Klei家打折，手一抖就把饥荒联机版(DoNotStarveTogether)和两个DLC一起打包买回家了（剁手！）。联机版最大的玩点就
+        &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;这周Klei家打折，手一抖就把饥荒联机版(Don’t Starve Together)和两个DLC一起打包买回家了(剁手！)。联机版最大的玩
       
     
     </summary>
@@ -39,7 +39,7 @@
     
       <category term="饥荒联机版" scheme="https://zuosc.github.io/tags/%E9%A5%A5%E8%8D%92%E8%81%94%E6%9C%BA%E7%89%88/"/>
     
-      <category term="Do Not Starve Together" scheme="https://zuosc.github.io/tags/Do-Not-Starve-Together/"/>
+      <category term="Don&#39;t Starve Together" scheme="https://zuosc.github.io/tags/Don-t-Starve-Together/"/>
     
       <category term="ubuntu" scheme="https://zuosc.github.io/tags/ubuntu/"/>
     
